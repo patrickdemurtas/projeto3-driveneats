@@ -88,11 +88,15 @@ body{
 .opcao-prato{
     
     width: 172px;
-    height: 216px;
+    height: 210px;
     background-color:white;
     border-radius: 9px;
     margin-left: 19px;
     margin-right: 16px;
+    box-shadow: 0 0 10px -4 #00000040;
+    border: 3px solid white;
+    
+    
 }
 
 .opcao-prato img{
@@ -100,6 +104,7 @@ body{
     height: 87px;
     margin-bottom: 8px;
     border-radius: 4px;
+    
 }
 
 .opcao-prato-formatacao{
@@ -145,11 +150,13 @@ body{
 .opcao-bebida{
     
     width: 172px;
-    height: 216px;
+    height: 210px;
     background-color:white;
     border-radius: 9px;
     margin-left: 19px;
     margin-right: 16px;
+    box-shadow: 0 0 10px -4 #00000040;
+    border: 3px solid white;
 }
 
 .opcao-bebida img{
@@ -165,6 +172,7 @@ body{
     margin-left: 14px;
     margin-top: 18px;
     margin-right: 14px;
+
 }
 
 .sobremesas{
@@ -180,11 +188,13 @@ body{
 .opcao-sobremesa{
     
     width: 172px;
-    height: 216px;
+    height: 210px;
     background-color: white;
     border-radius: 9px;
     margin-left: 19px;
     margin-right: 16px;
+    box-shadow: 0 0 10px -4 #00000040;
+    border: 3px solid  white;
 }
 
 .opcao-sobremesa img{
@@ -222,9 +232,17 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #CBCBCB;
+}
+
+.selecionado{
+    background-color: green;
 }
 
 .statuspedido{
     
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
 }
+

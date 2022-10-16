@@ -31,7 +31,7 @@
        </div>
 
        <div class="pratos">
-            <div class="opcao-prato">
+            <div id="frango" onclick="frango()" class="opcao-prato">
                 <div class="opcao-prato-formatacao">
                 <img src="./imagens/frango_yin_yang 1.png">
                 <div class="nomeproduto">Frango Yin Yang</div>
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="opcao-prato">
+            <div id="pizza" onclick="pizza()" class="opcao-prato">
                 <div class="opcao-prato-formatacao">
                 <img src="./imagens/pizza.png">
                 <div class="nomeproduto">Pizza</div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="opcao-prato">
+            <div id="sushi" onclick="sushi()" class="opcao-prato">
                 <div class="opcao-prato-formatacao">
                 <img src="./imagens/sushi.png">
                 <div class="nomeproduto">Combinado</div>
@@ -72,7 +72,7 @@
         </div>
 
         <div class="bebidas">
-            <div class="opcao-bebida">
+            <div id="coca" onclick="coca()" class="opcao-bebida">
                 <div class="opcao-bebida-formatacao">
                 <img src="./imagens/coquinha_gelada 1.png">
                 <div class="nomeproduto">Coquinha gelada</div>
@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="opcao-bebida">
+            <div id="guarana" onclick="guarana()" class="opcao-bebida">
                 <div class="opcao-bebida-formatacao">
                 <img src="./imagens/guarana.png">
                 <div class="nomeproduto">Guaraná gelado</div>
@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="opcao-bebida">
+            <div id="icetea" onclick="icetea()" class="opcao-bebida">
                 <div class="opcao-bebida-formatacao">
                 <img src="./imagens/ice-tea.png">
                 <div class="nomeproduto">Ice Tea</div>
@@ -114,7 +114,7 @@
         </div>
 
        <div class="sobremesas">
-        <div class="opcao-sobremesa">
+        <div id="pudim" onclick="pudim()" class="opcao-sobremesa">
             <div class="opcao-sobremesa-formatacao">
             <img src="./imagens/pudim 1.png">
             <div class="nomeproduto">Pudim</div>
@@ -124,7 +124,7 @@
             </div>
         </div>
 
-        <div class="opcao-sobremesa">
+        <div id="pave" onclick="pave()" class="opcao-sobremesa">
             <div class="opcao-sobremesa-formatacao">
             <img src="./imagens/paveoupacume.png">
             <div class="nomeproduto">Pavê</div>
@@ -134,7 +134,7 @@
             </div>
         </div>
 
-        <div class="opcao-sobremesa">
+        <div id="mousse" onclick="mousse()" class="opcao-sobremesa">
             <div class="opcao-sobremesa-formatacao">
             <img src="./imagens/mousse.png">
             <div class="nomeproduto">Mousse</div>
@@ -154,13 +154,18 @@
 
 
        <div class="rodape">
-        <div class="botaopedido">
-            <div class="statuspedido">Texto</div>
-        </div>
+        <button id="botao" onclick="finaliza()" class="botaopedido">
+            <div class="statuspedido">
+                <p id="finalizarpedido">Selecione os 3 itens<br>para fechar o pedido</p>
+            </div>
+        </button>
        </div>
 
    </div>
 
 </div>    
+
+<script src="java.js"></script>
+
 </body>
 </html>
